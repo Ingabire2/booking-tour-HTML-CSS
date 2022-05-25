@@ -113,7 +113,7 @@ nav {
 }
 .home-paragraph {
   color: #000;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   
 
@@ -200,8 +200,8 @@ h4{
   padding: 1.5rem 3rem;
 }
 .read-more{
-  display: inline-block;
-  margin:0rem 8rem 4rem 8rem;
+  display: flex;
+  margin:0rem 4rem 4rem 4rem;
   align-items: center;
   justify-content: center;
 }
