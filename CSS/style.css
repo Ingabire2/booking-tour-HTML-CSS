@@ -33,7 +33,7 @@ header {
 
 nav {
   background-color:green;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   /* background: rgba(241, 7, 143, 0.178); */
@@ -44,13 +44,13 @@ nav {
   width: 100%;
 }
 .img-gorilla{
-   width: 100%;
+   width: 80%;
    border-radius: 18px;
 }
 .home-bck{
   width:30%;
   margin: auto;
-  height: 350px;
+  /* height: 350px; */
   overflow: hidden;
   object-fit: cover;
   /* padding: 10px; */
@@ -63,8 +63,10 @@ nav {
 
 }
 .read-btn{
-  margin: 10px;
-  
+  margin:10px 0px 20px 0px;
+  width: 400px;
+  justify-content: center;
+  height: 70px;
 }
 
 .search-btn{
@@ -83,6 +85,7 @@ nav {
     color: white;
     font-size: 1rem;
     font-weight: bold;
+    justify-items: center;
   }
 .nav-link:link,.nav-link:visited {
   color: wheat;
@@ -112,7 +115,7 @@ nav {
   background:#0c4772;
  font-size: 1.8rem;
   /* width: 2rem; */
-  /* height: 2rem; */ */
+  /* height: 2rem; */ 
 }
 .heading-title {
   color: white;
@@ -133,6 +136,19 @@ nav {
   color: transparent;
  -webkit-background-clip: text; */
 }
+#read{
+  padding-right: 34rem;
+}
+marquee{
+  font-size: 32px;
+  font-weight: bolder;
+  
+  background-color: transparent;
+   color: whitesmoke;
+  margin-left: 54rem;
+
+
+}
 .text {
   border-radius: 0.8rem;
   width: 50%;
@@ -152,7 +168,7 @@ nav {
 
 }
 .search{
-  padding-right: 80px;
+  padding-right: 100px;
 }
 
 .home-btn {
@@ -224,7 +240,7 @@ h4{
 }
 .card{
   width: 300px;
-  background-color: rgb(41, 90, 53);
+  background-color: rgb(235, 230, 230);
   /* display: flex;
   flex-direction: column; */
   gap: 3rem;
@@ -234,7 +250,7 @@ h4{
   transition: all 0.8s;
 }
 .card:hover{
-  transform: scale(1.2);
+  transform: scale(1.1,1.1);
 }
 .main-card{
   display: grid;
@@ -246,7 +262,7 @@ h4{
 }
 .read-more{
   display: flex;
-  margin:0rem 36rem 8rem 8rem;
+  margin:0rem 8rem 8rem 8rem;
   align-items: center;
   justify-content: center;
 }
@@ -306,9 +322,9 @@ h4{
   text-align: right;
   margin-bottom: 1rem;
 }
-.book-img{
+.book-img:{
   object-fit: cover;
-  transform: scale(0.9,1.1);
+  transform: scale(1.1,1.1);
   width: 500px;
   border-radius: 1.8rem;
   
@@ -316,7 +332,7 @@ h4{
 .book{
   display: flex;
  
-  background-color: #96aace;
+  background-color: #597ec2;
 
 }
 
